@@ -231,24 +231,100 @@ function PrivacyPage() {
       <div className="max-w-3xl mx-auto">
         <h1 className="text-4xl font-bold mb-8 text-orange-500">Privacy Policy</h1>
         <div className="bg-[#1a1f25] p-8 rounded-lg space-y-6">
+          <div className="mb-6">
+            <p className="text-gray-400 mb-2"><strong>Effective Date:</strong> July 7, 2025</p>
+          </div>
+
           <section>
-            <h2 className="text-2xl font-semibold mb-4">1. Information Collection</h2>
-            <p className="text-gray-400">We collect information necessary to provide our services, including but not limited to email addresses and server usage data.</p>
+            <h2 className="text-2xl font-semibold mb-4">1. Introduction</h2>
+            <p className="text-gray-400 mb-4">This Privacy Policy explains how Firecone ("we", "us", or "our") collects, uses, stores, and protects your personal information when you use our free hosting services and visit our website.</p>
+            <p className="text-gray-400">By using our services, you agree to this Privacy Policy. If you do not agree, please do not use our services.</p>
           </section>
-          
+
           <section>
-            <h2 className="text-2xl font-semibold mb-4">2. Data Usage</h2>
-            <p className="text-gray-400">We use collected information to provide and improve our services, communicate with users, and ensure compliance with our terms of service.</p>
+            <h2 className="text-2xl font-semibold mb-4">2. Information We Collect</h2>
+            <p className="text-gray-400 mb-4">We collect only the personal information necessary to provide and maintain our services:</p>
+            <p className="text-gray-400 mb-2"><strong>Account Information:</strong> Your email address and username provided during registration.</p>
+            <p className="text-gray-400 mb-2"><strong>Technical Information:</strong> IP address, browser type, device details, and usage logs for security and service improvement.</p>
+            <p className="text-gray-400 mb-4"><strong>Usage Data:</strong> Anonymous analytics data collected via third-party tools like Google Analytics.</p>
+            <p className="text-gray-400">We do not collect sensitive personal data or payment information.</p>
           </section>
-          
+
           <section>
-            <h2 className="text-2xl font-semibold mb-4">3. Data Protection</h2>
-            <p className="text-gray-400">We implement appropriate security measures to protect your personal information from unauthorized access or disclosure.</p>
+            <h2 className="text-2xl font-semibold mb-4">3. How We Use Your Information</h2>
+            <p className="text-gray-400 mb-4">Your information is used solely to:</p>
+            <ul className="text-gray-400 list-disc list-inside space-y-2 mb-4">
+              <li>Provide and maintain our hosting services.</li>
+              <li>Communicate service-related updates and abuse notifications.</li>
+              <li>Detect, prevent, and respond to abuse or security threats.</li>
+              <li>Improve service performance and stability.</li>
+            </ul>
+            <p className="text-gray-400">We do not sell or share your personal data with third parties for marketing purposes.</p>
           </section>
-          
+
           <section>
-            <h2 className="text-2xl font-semibold mb-4">4. Third-Party Services</h2>
-            <p className="text-gray-400">Our service may integrate with third-party services. Please review their privacy policies to understand how they handle your data.</p>
+            <h2 className="text-2xl font-semibold mb-4">4. Cookies and Analytics</h2>
+            <p className="text-gray-400">We use cookies and similar technologies to manage sessions and collect anonymous usage data through services such as Google Analytics. You can disable cookies in your browser settings, but this may reduce site functionality.</p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-semibold mb-4">5. Data Retention</h2>
+            <p className="text-gray-400">We retain your personal data only as long as necessary to provide our services or comply with legal obligations. Upon account deletion, your data will be removed unless retention is required to prevent abuse or fraud.</p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-semibold mb-4">6. Data Security</h2>
+            <p className="text-gray-400">We implement reasonable technical and organizational measures to protect your personal data against unauthorized access, loss, or misuse. However, no internet transmission can be guaranteed to be 100% secure.</p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-semibold mb-4">7. Third-Party Services</h2>
+            <p className="text-gray-400 mb-4">To operate our service, we rely on trusted third parties including:</p>
+            <ul className="text-gray-400 list-disc list-inside space-y-2 mb-4">
+              <li>Hosting and infrastructure providers</li>
+              <li>Analytics platforms (e.g., Google Analytics)</li>
+              <li>Security and CDN providers (e.g., Cloudflare)</li>
+            </ul>
+            <p className="text-gray-400">These providers may process data on our behalf and are obligated to safeguard your information.</p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-semibold mb-4">8. User Responsibilities and Abuse Reporting</h2>
+            <p className="text-gray-400 mb-4">You agree to use Firecone responsibly and legally. If you discover any vulnerabilities or abuse, please report them immediately to firecone.eu@gmail.com.</p>
+            <p className="text-gray-400">We reserve the right to suspend, terminate, or blacklist accounts and servers involved in abuse or malicious activity.</p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-semibold mb-4">9. Your GDPR Rights (For EU Users)</h2>
+            <p className="text-gray-400 mb-4">If you are located in the European Union, you have the following rights under the General Data Protection Regulation (GDPR):</p>
+            <ul className="text-gray-400 list-disc list-inside space-y-2 mb-4">
+              <li><strong>Access:</strong> You can request access to the personal data we hold about you.</li>
+              <li><strong>Correction:</strong> You may request correction of inaccurate or incomplete data.</li>
+              <li><strong>Erasure:</strong> You can request deletion of your personal data, subject to legal and operational limitations.</li>
+              <li><strong>Restriction:</strong> You may request that we restrict processing of your data.</li>
+              <li><strong>Data Portability:</strong> You have the right to receive your data in a structured, machine-readable format.</li>
+              <li><strong>Objection:</strong> You can object to processing based on legitimate interests or direct marketing.</li>
+              <li><strong>Withdraw Consent:</strong> Where processing is based on consent, you may withdraw it at any time.</li>
+            </ul>
+            <p className="text-gray-400">To exercise these rights, contact us at firecone.eu@gmail.com. We will respond within the legally required timeframe.</p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-semibold mb-4">10. Children's Privacy</h2>
+            <p className="text-gray-400">Our services are not directed at children under 13 years old. We do not knowingly collect personal data from children.</p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-semibold mb-4">11. Changes to This Privacy Policy</h2>
+            <p className="text-gray-400">We may update this Privacy Policy occasionally. For material changes, we will provide advance notice via email or site announcement before the changes take effect. Your continued use of Firecone after such updates means you accept the revised policy.</p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-semibold mb-4">12. Contact Us</h2>
+            <p className="text-gray-400 mb-4">For questions, concerns, or abuse reports, contact us at:</p>
+            <div className="bg-orange-500/10 p-4 rounded-lg">
+              <p className="text-orange-500">📧 Email: firecone.eu@gmail.com</p>
+            </div>
           </section>
         </div>
       </div>
