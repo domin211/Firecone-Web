@@ -216,7 +216,6 @@ function TermsPage() {
             <p className="text-gray-400 mb-4">If you have questions or concerns regarding these Terms or the use of the Firecone platform, contact us at:</p>
             <div className="bg-orange-500/10 p-4 rounded-lg">
               <p className="text-orange-500 mb-2">📧 Email: Firecone.eu@gmail.com</p>
-              <p className="text-orange-500">🌐 Website: https://firecone.eu</p>
             </div>
           </section>
         </div>
