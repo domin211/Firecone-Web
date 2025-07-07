@@ -115,8 +115,6 @@ function TermsPage() {
         <div className="bg-[#1a1f25] p-8 rounded-lg space-y-6">
           <div className="mb-6">
             <p className="text-gray-400 mb-2"><strong>Effective Date:</strong> July 7, 2025</p>
-            <p className="text-gray-400 mb-2"><strong>Contact:</strong> Firecone.eu@gmail.com</p>
-            <p className="text-gray-400"><strong>Domain:</strong> https://firecone.eu</p>
           </div>
 
           <section>
