@@ -6,7 +6,7 @@ function Navigation() {
   return (
     <nav className="container mx-auto px-4 py-4 flex justify-between items-center">
       <div className="flex items-center gap-2">
-        <img 
+        <img
           src="https://cdn.discordapp.com/avatars/1071540568766812341/d5e99ecf6daba829a4eb57c64a1afd0b.webp?size=512"
           alt="Logo"
           className="w-10 h-10 rounded-full"
@@ -50,7 +50,7 @@ function HomePage() {
         <p className="text-gray-400 mb-8">
           Start your Minecraft server journey now with Firecone.
         </p>
-        <a 
+        <a
           href="https://client.firecone.eu/"
           className="inline-block bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 rounded-lg font-medium transition-colors"
         >
@@ -117,14 +117,14 @@ function TermsPage() {
             <p className="text-gray-400 mb-4">Firecone is an informal, non-commercial project that provides free game server hosting as a hobby. The Service is provided "as is" with no guarantees, warranties, or uptime commitments.</p>
             <p className="text-gray-400">By using Firecone, you agree to these Terms of Service and our Privacy Policy. If you do not agree, you must not use the Service.</p>
           </section>
-          
+
           <section>
             <h2 className="text-2xl font-semibold mb-4">II. Nature of the Service</h2>
             <p className="text-gray-400 mb-4">Firecone is not a business or registered company.</p>
             <p className="text-gray-400 mb-4">This is a free, experimental, hobby-hosting platform, intended for personal, educational, and non-abusive use only.</p>
             <p className="text-gray-400">There is no Service-Level Agreement (SLA) and no guarantee of availability, performance, or data retention.</p>
           </section>
-          
+
           <section>
             <h2 className="text-2xl font-semibold mb-4">III. Acceptable Use</h2>
             <p className="text-gray-400 mb-4">You agree not to use Firecone to:</p>
@@ -139,7 +139,7 @@ function TermsPage() {
             <p className="text-gray-400 mb-4">Violation of any of the above will result in immediate removal of your server and potential blacklisting.</p>
             <p className="text-gray-400">If you discover a bug, vulnerability, or abuse on the platform, you must report it to firecone.eu@gmail.com rather than exploit it.</p>
           </section>
-          
+
           <section>
             <h2 className="text-2xl font-semibold mb-4">IV. Uptime, Retention & Termination</h2>
             <p className="text-gray-400 mb-4">We make no uptime guarantees.</p>
@@ -216,6 +216,7 @@ function TermsPage() {
         </div>
       </div>
     </div>
+
   );
 }
 
