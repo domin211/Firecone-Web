@@ -109,106 +109,108 @@ function TermsPage() {
         <h1 className="text-4xl font-bold mb-8 text-orange-500">Terms of Service</h1>
         <div className="bg-[#1a1f25] p-8 rounded-lg space-y-6">
           <div className="mb-6">
-            <p className="text-gray-400 mb-2"><strong>Effective Date:</strong> July 7, 2025</p>
+            <p className="text-gray-400 mb-2"><strong>Effective Date:</strong> January 7, 2025</p>
           </div>
 
           <section>
-            <h2 className="text-2xl font-semibold mb-4">1. Introduction</h2>
-            <p className="text-gray-400">These Terms of Service ("Terms") govern your access to and use of Firecone's hosting platform ("Service"). By using the Service, you agree to be bound by these Terms. If you do not agree with any part of the Terms, you must not use the Service.</p>
+            <h2 className="text-2xl font-semibold mb-4">I. Introduction</h2>
+            <p className="text-gray-400 mb-4">Firecone is an informal, non-commercial project that provides free game server hosting as a hobby. The Service is provided "as is" with no guarantees, warranties, or uptime commitments.</p>
+            <p className="text-gray-400">By using Firecone, you agree to these Terms of Service and our Privacy Policy. If you do not agree, you must not use the Service.</p>
           </section>
           
           <section>
-            <h2 className="text-2xl font-semibold mb-4">2. Agreement to Terms</h2>
-            <p className="text-gray-400">By accessing or using the Service, you confirm that you understand and agree to comply with these Terms. You also agree to comply with all applicable laws and regulations in your use of the Service.</p>
+            <h2 className="text-2xl font-semibold mb-4">II. Nature of the Service</h2>
+            <p className="text-gray-400 mb-4">Firecone is not a business or registered company.</p>
+            <p className="text-gray-400 mb-4">This is a free, experimental, hobby-hosting platform, intended for personal, educational, and non-abusive use only.</p>
+            <p className="text-gray-400">There is no Service-Level Agreement (SLA) and no guarantee of availability, performance, or data retention.</p>
           </section>
           
           <section>
-            <h2 className="text-2xl font-semibold mb-4">3. Hosting Services</h2>
-            <p className="text-gray-400 mb-4">Firecone provides free hosting services to users. We do our best to maintain a stable and secure environment, but we do not guarantee uptime or data preservation. You use the service at your own risk.</p>
-            <p className="text-gray-400">Firecone may access user servers to address technical issues, perform maintenance, or enforce security measures. By using our services, you consent to this access when necessary.</p>
+            <h2 className="text-2xl font-semibold mb-4">III. Acceptable Use</h2>
+            <p className="text-gray-400 mb-4">You agree not to use Firecone to:</p>
+            <ul className="text-gray-400 list-disc list-inside space-y-2 mb-4">
+              <li>Host or share illegal content (malware, child exploitation, warez, etc.)</li>
+              <li>Launch or assist in DDoS attacks</li>
+              <li>Distribute spam, phishing pages, or malicious software</li>
+              <li>Abuse resources (CPU, memory, disk, bandwidth)</li>
+              <li>Mine cryptocurrency or run commercial services</li>
+              <li>Monetize or resell our services in any form</li>
+            </ul>
+            <p className="text-gray-400 mb-4">Violation of any of the above will result in immediate removal of your server and potential blacklisting.</p>
+            <p className="text-gray-400">If you discover a bug, vulnerability, or abuse on the platform, you must report it to firecone.eu@gmail.com rather than exploit it.</p>
           </section>
           
           <section>
-            <h2 className="text-2xl font-semibold mb-4">4. User Conduct</h2>
-            <p className="text-gray-400 mb-4">You agree to use Firecone's services responsibly and lawfully. Prohibited behaviors include but are not limited to:</p>
+            <h2 className="text-2xl font-semibold mb-4">IV. Uptime, Retention & Termination</h2>
+            <p className="text-gray-400 mb-4">We make no uptime guarantees.</p>
+            <p className="text-gray-400 mb-4">Your server or account may be deleted at any time, with or without notice.</p>
+            <p className="text-gray-400 mb-4">Inactive or resource-heavy servers may be removed to preserve platform stability.</p>
+            <p className="text-gray-400">Users abusing the service will be suspended, removed, or blacklisted at our discretion.</p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-semibold mb-4">V. Server Access</h2>
+            <p className="text-gray-400 mb-4">Firecone administrators may access servers or user data when necessary to:</p>
             <ul className="text-gray-400 list-disc list-inside space-y-2 mb-4">
-              <li>Uploading or hosting any illegal, harmful, or offensive content</li>
-              <li>Disrupting or interfering with other users' experience or our systems</li>
-              <li>Impersonating individuals or misrepresenting your affiliation</li>
-              <li>Hosting content you do not own or have permission to use</li>
-              <li>Engaging in spamming, phishing, or distributing malware</li>
+              <li>Investigate abuse or violations</li>
+              <li>Resolve technical issues</li>
+              <li>Perform maintenance or enforce policy</li>
             </ul>
-            <p className="text-gray-400">Violations may result in suspension or permanent termination of your service.</p>
+            <p className="text-gray-400">We aim to avoid disruption, but we are not responsible for lost data.</p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold mb-4">5. Abuse and Fair Use</h2>
-            <p className="text-gray-400 mb-4">Firecone is intended for fair, non-abusive use. You must not:</p>
+            <h2 className="text-2xl font-semibold mb-4">VI. Limitation of Liability</h2>
+            <p className="text-gray-400 mb-4">By using Firecone, you agree that:</p>
             <ul className="text-gray-400 list-disc list-inside space-y-2 mb-4">
-              <li>Bypass service limits or attempt to overload the system</li>
-              <li>Exploit bugs or vulnerabilities</li>
-              <li>Use our platform for malicious activity or personal gain at the expense of others</li>
+              <li>You use the service entirely at your own risk</li>
+              <li>Firecone is not liable for data loss, downtime, or service interruptions</li>
+              <li>Firecone is not responsible for damages, direct or indirect, arising from use of the platform</li>
             </ul>
-            <p className="text-gray-400 mb-4">If you find a bug or exploit, you are required to report it to Firecone.eu@gmail.com.</p>
-            <p className="text-gray-400">Firecone reserves the right to terminate your server, suspend your account, and blacklist you from the platform without notice if abuse or violation of our terms is detected.</p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold mb-4">6. Intellectual Property Rights</h2>
-            <p className="text-gray-400 mb-4">All intellectual property related to the Firecone platform belongs to Firecone unless otherwise stated. You may not copy, distribute, or create derivative works without permission.</p>
-            <p className="text-gray-400">If you believe content hosted on Firecone infringes your intellectual property, please contact us with detailed information, including proof of ownership.</p>
+            <h2 className="text-2xl font-semibold mb-4">VII. Intellectual Property</h2>
+            <p className="text-gray-400 mb-4">You are responsible for all content you upload or host. Do not host anything you don't own or have permission to use. Copyright violations may result in removal or account action.</p>
+            <p className="text-gray-400">To report IP violations, contact firecone.eu@gmail.com.</p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold mb-4">7. Third-Party Services</h2>
-            <p className="text-gray-400 mb-4">Firecone may use third-party services to operate and improve the platform (e.g., Cloudflare, CookieYes). Your use of Firecone implies agreement with the terms and policies of these services.</p>
-            <p className="text-gray-400">We are not responsible for third-party content or services accessed via links or embedded tools.</p>
-          </section>
-
-          <section>
-            <h2 className="text-2xl font-semibold mb-4">8. Termination</h2>
-            <p className="text-gray-400 mb-4">We reserve the right to suspend or terminate your access to Firecone at any time, for any reason, especially if you violate these Terms or abuse the platform.</p>
-            <p className="text-gray-400">All content associated with your server or account may be deleted upon termination, and we are under no obligation to retrieve or preserve it.</p>
-          </section>
-
-          <section>
-            <h2 className="text-2xl font-semibold mb-4">9. Disclaimer of Warranties</h2>
-            <p className="text-gray-400 mb-4">Firecone is provided "as is" and "as available" without warranties of any kind. We do not guarantee:</p>
+            <h2 className="text-2xl font-semibold mb-4">VIII. Privacy & Data Handling</h2>
+            <p className="text-gray-400 mb-4">Please refer to our full Privacy Policy for details. In summary:</p>
             <ul className="text-gray-400 list-disc list-inside space-y-2 mb-4">
-              <li>Continuous uptime or availability</li>
-              <li>Accuracy or reliability of hosted services</li>
-              <li>Security of data or content</li>
+              <li>We collect minimal data: IP address, email, logs, basic metadata</li>
+              <li>No third-party analytics, ads, or tracking</li>
+              <li>Data is used only to operate and protect the platform</li>
+              <li>Under GDPR, you may request to access or delete your data</li>
             </ul>
-            <p className="text-gray-400">Use of our service is at your own risk.</p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold mb-4">10. Limitation of Liability</h2>
-            <p className="text-gray-400 mb-4">Firecone will not be liable for any damages arising from your use of or inability to use the platform, including but not limited to:</p>
+            <h2 className="text-2xl font-semibold mb-4">IX. Abuse Policy</h2>
+            <p className="text-gray-400 mb-4">To report abuse (e.g., illegal content, spam, malware):</p>
+            <p className="text-gray-400 mb-4">Email firecone.eu@gmail.com with:</p>
             <ul className="text-gray-400 list-disc list-inside space-y-2 mb-4">
-              <li>Data loss</li>
-              <li>Service interruptions</li>
-              <li>Security breaches</li>
-              <li>Unauthorized access</li>
+              <li>Server name or ID</li>
+              <li>Description of the issue</li>
+              <li>Any evidence (e.g., logs or screenshots)</li>
             </ul>
-            <p className="text-gray-400">This limitation applies to the fullest extent permitted by law.</p>
+            <p className="text-gray-400">We take abuse seriously and will investigate and act appropriately.</p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold mb-4">11. Indemnification</h2>
-            <p className="text-gray-400">You agree to indemnify and hold Firecone harmless from any claims or damages arising from your use of the service, your content, or any breach of these Terms.</p>
+            <h2 className="text-2xl font-semibold mb-4">X. Changes to Terms</h2>
+            <p className="text-gray-400 mb-4">We may update these Terms at any time. For major changes, we will notify users via our website or by email (if available) at least 7 days in advance.</p>
+            <p className="text-gray-400">Continued use of the Service after changes become effective indicates your acceptance of the revised Terms.</p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold mb-4">12. Changes to Terms</h2>
-            <p className="text-gray-400">We may update these Terms from time to time. If we make material changes, we will provide at least 7 days' prior notice via our website or email (if provided). Continued use of the service after changes take effect constitutes your acceptance of the revised Terms.</p>
-          </section>
-
-          <section>
-            <h2 className="text-2xl font-semibold mb-4">13. Contact Us</h2>
-            <p className="text-gray-400 mb-4">If you have questions or concerns regarding these Terms or the use of the Firecone platform, contact us at:</p>
+            <h2 className="text-2xl font-semibold mb-4">XI. Contact Information</h2>
+            <p className="text-gray-400 mb-4">This project is operated informally and not as a registered business.</p>
+            <p className="text-gray-400 mb-4">For any questions, reports, or data requests, please contact:</p>
             <div className="bg-orange-500/10 p-4 rounded-lg">
               <p className="text-orange-500 mb-2">📧 Email: Firecone.eu@gmail.com</p>
+              <p className="text-orange-500">🌐 Website: https://firecone.eu</p>
             </div>
           </section>
         </div>
