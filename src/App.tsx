@@ -90,15 +90,11 @@ function HomePage() {
       <div className="container mx-auto px-4 mt-32 mb-32">
         <div className="bg-[#1a1f25] rounded-2xl p-8 grid md:grid-cols-3 gap-12">
           <div className="text-center">
-            <div className="text-4xl font-bold text-orange-500 mb-2">99.9%</div>
-            <div className="text-gray-400">Uptime</div>
-          </div>
-          <div className="text-center">
             <div className="text-4xl font-bold text-orange-500 mb-2">24/7</div>
             <div className="text-gray-400">Customer Support</div>
           </div>
           <div className="text-center">
-            <div className="text-4xl font-bold text-orange-500 mb-2">1K+</div>
+            <div className="text-4xl font-bold text-orange-500 mb-2">0</div>
             <div className="text-gray-400">Active Users</div>
           </div>
         </div>
