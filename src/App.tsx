@@ -41,32 +41,40 @@ function HomePage() {
       {/* Hero Section */}
       <div className="container mx-auto px-4 text-center mt-20">
         <div className="inline-block bg-orange-500/10 text-orange-500 px-4 py-1 rounded-full mb-6">
-          ✨ Simple, reliable hosting
+          ✨ Free Minecraft Server Hosting
         </div>
         <h1 className="text-6xl font-bold mb-4">
-          Quality Hosting.
+          Start Your Minecraft
           <br />
-          <span className="text-orange-500">No Cost.</span>
+          <span className="text-orange-500">Server Today.</span>
         </h1>
-        <p className="text-gray-400 mb-8">
-          Start your Minecraft server journey now with Firecone.
+        <p className="text-gray-400 mb-8 max-w-2xl mx-auto text-lg">
+          Create and manage your Minecraft server with our free hosting platform. 
+          No credit card required, no hidden fees - just pure gaming fun.
         </p>
         <a 
           href="https://client.firecone.eu/"
-          className="inline-block bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 rounded-lg font-medium transition-colors"
+          className="inline-block bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg font-medium transition-all duration-200 hover:scale-105 shadow-lg hover:shadow-xl"
         >
-          Get Started
+          Create Your Server
         </a>
       </div>
 
       {/* Features */}
-      <div className="container mx-auto px-4 grid md:grid-cols-3 gap-8 mt-32">
+      <div className="container mx-auto px-4 mt-32">
+        <div className="text-center mb-16">
+          <h2 className="text-3xl font-bold mb-4">Why Choose Firecone?</h2>
+          <p className="text-gray-400 max-w-2xl mx-auto">
+            We provide everything you need to run a successful Minecraft server
+          </p>
+        </div>
+        <div className="grid md:grid-cols-3 gap-8">
         <div className="bg-[#1a1f25] p-6 rounded-lg">
           <div className="bg-orange-500/10 w-12 h-12 flex items-center justify-center rounded-lg mb-4">
             <Zap className="text-orange-500" size={24} />
           </div>
-          <h3 className="text-xl font-semibold mb-2">Reliable Speed</h3>
-          <p className="text-gray-400">Optimized infrastructure for consistent performance</p>
+          <h3 className="text-xl font-semibold mb-2">High Performance</h3>
+          <p className="text-gray-400">Optimized servers with SSD storage for lag-free gameplay</p>
         </div>
 
         <div className="bg-[#1a1f25] p-6 rounded-lg">
@@ -74,7 +82,7 @@ function HomePage() {
             <Shield className="text-orange-500" size={24} />
           </div>
           <h3 className="text-xl font-semibold mb-2">DDoS Protection</h3>
-          <p className="text-gray-400">Advanced mitigation against network attacks</p>
+          <p className="text-gray-400">Enterprise-grade protection keeps your server online</p>
         </div>
 
         <div className="bg-[#1a1f25] p-6 rounded-lg">
@@ -82,20 +90,49 @@ function HomePage() {
             <Globe2 className="text-orange-500" size={24} />
           </div>
           <h3 className="text-xl font-semibold mb-2">Global Network</h3>
-          <p className="text-gray-400">Strategically placed servers for optimal latency</p>
+          <p className="text-gray-400">Multiple data centers worldwide for low latency</p>
+        </div>
+        </div>
+      </div>
+
+      {/* Getting Started Section */}
+      <div className="container mx-auto px-4 mt-32">
+        <div className="bg-gradient-to-r from-orange-500/10 to-orange-600/10 rounded-2xl p-12 text-center">
+          <h2 className="text-3xl font-bold mb-4">Ready to Get Started?</h2>
+          <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+            Join thousands of players who trust Firecone for their Minecraft hosting needs. 
+            Set up your server in minutes, not hours.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a 
+              href="https://client.firecone.eu/"
+              className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 rounded-lg font-medium transition-all duration-200 hover:scale-105"
+            >
+              Start Free Server
+            </a>
+            <a 
+              href="https://discord.firecone.eu/"
+              className="bg-transparent border border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white px-8 py-3 rounded-lg font-medium transition-all duration-200"
+            >
+              Join Discord
+            </a>
+          </div>
         </div>
       </div>
 
       {/* Stats */}
       <div className="container mx-auto px-4 mt-32 mb-32">
+        <div className="text-center mb-12">
+          <h2 className="text-3xl font-bold mb-4">Our Service</h2>
+        </div>
         <div className="bg-[#1a1f25] rounded-2xl p-8 grid md:grid-cols-2 gap-12 max-w-2xl mx-auto">
           <div className="text-center">
             <div className="text-4xl font-bold text-orange-500 mb-2">24/7</div>
-            <div className="text-gray-400">Customer Support</div>
+            <div className="text-gray-400">Support Available</div>
           </div>
           <div className="text-center">
-            <div className="text-4xl font-bold text-orange-500 mb-2">0</div>
-            <div className="text-gray-400">Active Users</div>
+            <div className="text-4xl font-bold text-orange-500 mb-2">100%</div>
+            <div className="text-gray-400">Free Forever</div>
           </div>
         </div>
       </div>
