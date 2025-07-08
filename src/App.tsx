@@ -14,7 +14,6 @@ function Navigation() {
         <span className="text-xl font-bold">Firecone</span>
       </div>
       <div className="flex gap-6">
-        <a href="https://client.firecone.eu/" className="hover:text-orange-500 transition-colors">Client</a>
         <a href="https://panel.firecone.eu/" className="hover:text-orange-500 transition-colors">Panel</a>
         <a href="https://status.firecone.eu/" className="hover:text-orange-500 transition-colors">Status</a>
         <a href="https://discord.firecone.eu/" className="hover:text-orange-500 transition-colors">Discord</a>
