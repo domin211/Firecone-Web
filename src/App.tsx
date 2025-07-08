@@ -88,7 +88,7 @@ function HomePage() {
 
       {/* Stats */}
       <div className="container mx-auto px-4 mt-32 mb-32">
-        <div className="bg-[#1a1f25] rounded-2xl p-8 grid md:grid-cols-3 gap-12">
+        <div className="bg-[#1a1f25] rounded-2xl p-8 grid md:grid-cols-2 gap-12 max-w-2xl mx-auto">
           <div className="text-center">
             <div className="text-4xl font-bold text-orange-500 mb-2">24/7</div>
             <div className="text-gray-400">Customer Support</div>
