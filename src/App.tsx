@@ -109,7 +109,7 @@ function TermsPage() {
         <h1 className="text-4xl font-bold mb-8 text-orange-500">Terms of Service</h1>
         <div className="bg-[#1a1f25] p-8 rounded-lg space-y-6">
           <div className="mb-6">
-            <p className="text-gray-400 mb-2"><strong>Effective Date:</strong> January 7, 2025</p>
+            <p className="text-gray-400 mb-2"><strong>Effective Date:</strong> January 8, 2025</p>
           </div>
 
           <section>
