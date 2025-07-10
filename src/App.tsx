@@ -42,6 +42,17 @@ function HomePage() {
       <Helmet>
         <title>Firecone Hosting - Quality Hosting at No Cost</title>
         <meta name="description" content="Start your Minecraft server journey now with Firecone Hosting. Reliable, free, and simple hosting solutions." />
+        <script type="application/ld+json">
+          {`
+            {
+              "@context": "http://schema.org",
+              "@type": "WebPage",
+              "name": "Home Page",
+              "description": "Start your Minecraft server journey now with Firecone Hosting. Reliable, free, and simple hosting solutions.",
+              "url": "https://firecone.eu/"
+            }
+          `}
+        </script>
       </Helmet>
       {/* Hero Section */}
       <div className="container mx-auto px-4 text-center mt-20">
@@ -62,6 +73,18 @@ function HomePage() {
         >
           Get Started
         </a>
+        {/* AdSense Placeholder */}
+        <div className="mt-8">
+          <ins className="adsbygoogle"
+            style={{ display: 'block' }}
+            data-ad-client="ca-pub-1954989337622480"
+            data-ad-slot="1234567890"
+            data-ad-format="auto"
+            data-full-width-responsive="true"></ins>
+          <script>
+            {`(adsbygoogle = window.adsbygoogle || []).push({});`}
+          </script>
+        </div>
       </div>
 
       {/* Features */}
