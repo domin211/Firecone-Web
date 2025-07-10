@@ -1,6 +1,7 @@
 import React from 'react';
 import { Shield, Zap, Globe2 } from 'lucide-react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 function Navigation() {
   return (
@@ -38,6 +39,10 @@ function Footer() {
 function HomePage() {
   return (
     <>
+      <Helmet>
+        <title>Firecone Hosting - Quality Hosting at No Cost</title>
+        <meta name="description" content="Start your Minecraft server journey now with Firecone Hosting. Reliable, free, and simple hosting solutions." />
+      </Helmet>
       {/* Hero Section */}
       <div className="container mx-auto px-4 text-center mt-20">
         <div className="inline-block bg-orange-500/10 text-orange-500 px-4 py-1 rounded-full mb-6">
@@ -106,6 +111,10 @@ function HomePage() {
 function TermsPage() {
   return (
     <div className="container mx-auto px-4 py-12">
+      <Helmet>
+        <title>Terms of Service - Firecone Hosting</title>
+        <meta name="description" content="Review the terms of service for using Firecone Hosting, a free and reliable hosting platform." />
+      </Helmet>
       <div className="max-w-3xl mx-auto">
         <h1 className="text-4xl font-bold mb-8 text-orange-500">Terms of Service</h1>
         <div className="bg-[#1a1f25] p-8 rounded-lg space-y-6">
@@ -224,6 +233,10 @@ function TermsPage() {
 function PrivacyPage() {
   return (
     <div className="container mx-auto px-4 py-12">
+      <Helmet>
+        <title>Privacy Policy - Firecone Hosting</title>
+        <meta name="description" content="Learn about how Firecone Hosting handles your data and ensures your privacy." />
+      </Helmet>
       <div className="max-w-3xl mx-auto">
         <h1 className="text-4xl font-bold mb-8 text-orange-500">Privacy Policy</h1>
         <div className="bg-[#1a1f25] p-8 rounded-lg space-y-6">
