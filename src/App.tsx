@@ -6,14 +6,14 @@ import { Helmet } from 'react-helmet';
 function Navigation() {
   return (
     <nav className="container mx-auto px-4 py-4 flex justify-between items-center">
-      <div className="flex items-center gap-2">
+      <Link to="/" className="flex items-center gap-2">
         <img
           src="https://cdn.discordapp.com/avatars/1071540568766812341/d5e99ecf6daba829a4eb57c64a1afd0b.webp?size=512"
           alt="Logo"
           className="w-10 h-10 rounded-full"
         />
         <span className="text-xl font-bold">Firecone</span>
-      </div>
+      </Link>
       <div className="flex gap-6">
         <a href="https://panel.firecone.eu/" className="hover:text-orange-500 transition-colors">Panel</a>
         <a href="https://status.firecone.eu/" className="hover:text-orange-500 transition-colors">Status</a>

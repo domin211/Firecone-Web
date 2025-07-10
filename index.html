@@ -33,6 +33,19 @@
       }
     }
   </script>
+
+  <!-- Content Security Policy (CSP) -->
+  <meta http-equiv="Content-Security-Policy"
+    content="default-src 'self'; script-src 'self' https://www.googletagmanager.com https://pagead2.googlesyndication.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://*.googleusercontent.com; connect-src 'self'; frame-ancestors 'none';" />
+
+  <!-- HTTP Strict Transport Security (HSTS) -->
+  <meta http-equiv="Strict-Transport-Security" content="max-age=31536000; includeSubDomains; preload" />
+
+  <!-- Cross-Origin-Opener-Policy (COOP) -->
+  <meta http-equiv="Cross-Origin-Opener-Policy" content="same-origin" />
+
+  <!-- X-Frame-Options (XFO) -->
+  <meta http-equiv="X-Frame-Options" content="DENY" />
 </head>
 
 <body>
