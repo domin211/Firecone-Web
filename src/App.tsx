@@ -28,6 +28,7 @@ function Footer() {
       <div className="flex justify-center gap-8 mb-4">
         <Link to="/terms" className="text-gray-400 hover:text-orange-500 transition-colors">Terms of Service</Link>
         <Link to="/privacy" className="text-gray-400 hover:text-orange-500 transition-colors">Privacy Policy</Link>
+        <a href="/sitemap.xml" className="text-gray-400 hover:text-orange-500 transition-colors">Sitemap</a>
       </div>
       <p className="text-[#F97316]">© {new Date().getFullYear()} Firecone</p>
     </footer>
