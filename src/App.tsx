@@ -42,17 +42,6 @@ function HomePage() {
       <Helmet>
         <title>Firecone Hosting - Quality Hosting at No Cost</title>
         <meta name="description" content="Start your Minecraft server journey now with Firecone Hosting. Reliable, free, and simple hosting solutions." />
-        <script type="application/ld+json">
-          {`
-            {
-              "@context": "http://schema.org",
-              "@type": "WebPage",
-              "name": "Home Page",
-              "description": "Start your Minecraft server journey now with Firecone Hosting. Reliable, free, and simple hosting solutions.",
-              "url": "https://firecone.eu/"
-            }
-          `}
-        </script>
       </Helmet>
       {/* Hero Section */}
       <div className="container mx-auto px-4 text-center mt-20">
@@ -69,22 +58,10 @@ function HomePage() {
         </p>
         <a
           href="https://client.firecone.eu/"
-          className="inline-block bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 rounded-lg font-medium transition-colors"
+          className="inline-block bg-orange-600 hover:bg-orange-700 text-white px-8 py-3 rounded-lg font-medium transition-colors"
         >
           Get Started
         </a>
-        {/* AdSense Placeholder */}
-        <div className="mt-8">
-          <ins className="adsbygoogle"
-            style={{ display: 'block' }}
-            data-ad-client="ca-pub-1954989337622480"
-            data-ad-slot="1234567890"
-            data-ad-format="auto"
-            data-full-width-responsive="true"></ins>
-          <script>
-            {`(adsbygoogle = window.adsbygoogle || []).push({});`}
-          </script>
-        </div>
       </div>
 
       {/* Features */}
@@ -93,7 +70,7 @@ function HomePage() {
           <div className="bg-orange-500/10 w-12 h-12 flex items-center justify-center rounded-lg mb-4">
             <Zap className="text-orange-500" size={24} />
           </div>
-          <h3 className="text-xl font-semibold mb-2">Reliable Speed</h3>
+          <h2 className="text-xl font-semibold mb-2">Reliable Speed</h2>
           <p className="text-gray-400">Optimized infrastructure for consistent performance</p>
         </div>
 
@@ -101,7 +78,7 @@ function HomePage() {
           <div className="bg-orange-500/10 w-12 h-12 flex items-center justify-center rounded-lg mb-4">
             <Shield className="text-orange-500" size={24} />
           </div>
-          <h3 className="text-xl font-semibold mb-2">DDoS Protection</h3>
+          <h2 className="text-xl font-semibold mb-2">DDoS Protection</h2>
           <p className="text-gray-400">Advanced mitigation against network attacks</p>
         </div>
 
@@ -109,7 +86,7 @@ function HomePage() {
           <div className="bg-orange-500/10 w-12 h-12 flex items-center justify-center rounded-lg mb-4">
             <Globe2 className="text-orange-500" size={24} />
           </div>
-          <h3 className="text-xl font-semibold mb-2">Global Network</h3>
+          <h2 className="text-xl font-semibold mb-2">Global Network</h2>
           <p className="text-gray-400">Strategically placed servers for optimal latency</p>
         </div>
       </div>
