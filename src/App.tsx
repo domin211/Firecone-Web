@@ -11,7 +11,7 @@ function Navigation() {
       <div className="flex justify-between items-center">
         <Link to="/" className="flex items-center gap-2">
           <img
-            src="https://cdn.discordapp.com/avatars/1071540568766812341/d5e99ecf6daba829a4eb57c64a1afd0b.webp?size=512"
+            src="/favicon.png"
             alt="Logo"
             className="w-8 h-8 sm:w-10 sm:h-10 rounded-full"
           />
