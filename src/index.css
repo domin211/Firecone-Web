@@ -1,3 +1,56 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Custom responsive styles */
+@layer base {
+    html {
+        -webkit-text-size-adjust: 100%;
+        text-size-adjust: 100%;
+    }
+
+    body {
+        min-height: 100vh;
+        min-height: 100dvh;
+    }
+}
+
+@layer components {
+
+    /* Mobile-first button styles */
+    .btn-primary {
+        @apply inline-block bg-orange-600 hover:bg-orange-700 text-white px-4 py-2 sm:px-6 sm:py-3 rounded-lg font-medium transition-colors text-sm sm:text-base;
+    }
+
+    /* Responsive container with proper padding */
+    .container-responsive {
+        @apply container mx-auto px-4 sm:px-6 lg:px-8;
+    }
+
+    /* Responsive text scaling */
+    .heading-xl {
+        @apply text-2xl sm:text-3xl lg:text-4xl xl:text-5xl;
+    }
+
+    .heading-lg {
+        @apply text-xl sm:text-2xl lg:text-3xl;
+    }
+
+    .text-responsive {
+        @apply text-sm sm:text-base;
+    }
+}
+
+@layer utilities {
+
+    /* Touch-friendly interactive elements */
+    .touch-target {
+        min-height: 44px;
+        min-width: 44px;
+    }
+
+    /* Improved focus visibility for accessibility */
+    .focus-visible {
+        @apply focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2 focus:ring-offset-gray-900;
+    }
+}
