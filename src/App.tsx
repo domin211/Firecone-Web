@@ -52,7 +52,10 @@ function Navigation() {
 function Footer() {
   const handleConsentWithdrawal = () => {
     // Remove the consent cookie
-    document.cookie = "consent=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+    document.cookie = "consent=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/; domain=" + '.' + window.location.hostname
+      .split('.')
+      .slice(-2)
+      .join('.') + ";";
 
     // Reload the page to reflect the change
     window.location.reload();
