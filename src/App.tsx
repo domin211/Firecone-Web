@@ -50,12 +50,27 @@ function Navigation() {
 }
 
 function Footer() {
+  const handleConsentWithdrawal = () => {
+    // Remove the consent cookie
+    document.cookie = "consent=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+
+    // Reload the page to reflect the change
+    window.location.reload();
+  };
+
   return (
     <footer className="container mx-auto px-4 sm:px-6 lg:px-8 pb-8 text-center">
       <div className="flex flex-col sm:flex-row justify-center gap-4 sm:gap-8 mb-4">
         <Link to="/terms" className="text-gray-400 hover:text-orange-500 transition-colors">Terms of Service</Link>
         <Link to="/privacy" className="text-gray-400 hover:text-orange-500 transition-colors">Privacy Policy</Link>
         <a href="/sitemap.xml" className="text-gray-400 hover:text-orange-500 transition-colors">Sitemap</a>
+        <button
+          onClick={handleConsentWithdrawal}
+          className="text-gray-400 hover:text-orange-500 transition-colors underline cursor-pointer"
+          title="Withdraw cookie consent and reload page"
+        >
+          Withdraw Cookie Consent
+        </button>
       </div>
       <p className="text-[#F97316]">© {new Date().getFullYear()} Firecone</p>
     </footer>
